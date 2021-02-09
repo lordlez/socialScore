@@ -1,0 +1,68 @@
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --ark-grayish-blue: hsl(227, 10%, 46%);
+}
+
+.body{
+    margin: 0;
+    background: var(--dark-cyan);
+    padding: 50px;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.card {
+    background: white url('./images/bg-pattern-card.svg') repeat-x;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 60px;
+    max-width: 480px;
+    flex-shrink: 0;
+    flex-grow: 1;
+
+}
+
+h1 {
+    margin: 0;
+    color: var(--very-dark-desaturated-blue);
+    margin-top: 20px;
+}
+
+.card h1 span {
+    color: var(--ark-grayish-blue);
+    font-weight: 400;
+}
+
+
+.card h2 {
+    color: var(--ark-grayish-blue);
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.image{
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #e8e8e8;
+    padding: 20px 20px;
+}
+
+.social h3 small {
+    display: block;
+    color: var(--ark-grayish-blue);
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
